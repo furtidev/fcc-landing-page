@@ -1,0 +1,48 @@
+@font-face {
+  font-family: google;
+  src: url(google.ttf);
+}
+body {
+	font-family: google;
+	margin: 0px;
+}
+.navbar {
+	background: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 32pt;
+	color: #fbbc05;
+}
+.pricing {
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 8px;
+	width: 270px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+}
+.package-name {
+	font-size: 30px;
+}
+.tagline {
+	font-size: 10px;
+	color: gray;
+}
+ul {
+  list-style: none;
+}
+li {
+	margin: 20px;
+}
+hr {
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-top: 1px solid #ddd;
+	width: 100px;
+}
+.price {
+	font-size: 30px;
+	color: #0b75f9;
+}
